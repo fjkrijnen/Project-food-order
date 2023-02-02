@@ -10,7 +10,7 @@ const App = () => {
   const showCartHandler = () => {
     setCartIsShown(true);
   };
-
+///test
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
