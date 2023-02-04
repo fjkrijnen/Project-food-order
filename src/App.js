@@ -5,12 +5,13 @@ import Meals from "./components/Meals/Meals";
 
 import Cart from "./components/Cart/Cart";
 
+//App method root component
 const App = () => {
   const [cartIsShown, setCartIsShown] = useState(false);
   const showCartHandler = () => {
     setCartIsShown(true);
   };
-///test
+
   const hideCartHandler = () => {
     setCartIsShown(false);
   };
